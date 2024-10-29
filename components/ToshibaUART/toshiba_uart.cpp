@@ -229,7 +229,7 @@ void ToshibaUART::update() {
   }
   request_data(CODE_REQUEST_DATA[sensor_arr[current_sensor]]);
   query_data = true;
-  ESP_LOGD(TAG,"Requesting data");
+  ESP_LOGD(TAG,"Requesting data JE SPREMEMBA");
 
 }
 
