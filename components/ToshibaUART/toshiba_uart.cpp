@@ -305,7 +305,7 @@ void ToshibaUART::request_data(uint8_t request_code) {
   INST_REQUEST_DATA[10] = return_checksum(INST_REQUEST_DATA,sizeof(INST_REQUEST_DATA));
   this->write_array(INST_REQUEST_DATA,sizeof(INST_REQUEST_DATA));
   this->flush();
-  ESP_LOGD(TAG,"Request = 0x%02x, current sensor = %d, chcksum = 0x%02x", INST_REQUEST_DATA[7],sensor_arr[current_sensor],temp);
+  //ESP_LOGD(TAG,"Request = 0x%02x, current sensor = %d, chcksum = 0x%02x", INST_REQUEST_DATA[7],sensor_arr[current_sensor],temp);
 }
 
 
