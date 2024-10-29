@@ -46,6 +46,7 @@ int some_temp_2_prev = 0;
 int some_temp_2 = 0;
 int some_temp_3_prev = 0;
 int some_temp_3 = 0;
+float temp;
 
 bool pump_state_known = false;
 bool auto_mode_active;
